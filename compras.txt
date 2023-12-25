@@ -3,3 +3,5 @@ Bananas
 Peras
 Lechuga
 Tomate
+Manteca
+Fideos
