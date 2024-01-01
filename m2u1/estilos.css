@@ -1,0 +1,86 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: #ededed;
+    color: #090033;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.imagen {
+    width: 500px;
+    margin-left: 150px;    
+    box-shadow: 10px 15px 8px #3e3c3c;
+    /* Eje X: 10px - Eje Y: 15px - Desenfoque - Color*/
+}
+
+#edad {
+    font-size: 0.95em;
+}
+
+h3, h4 {
+    font-size: 1.1em;
+    text-align: left;
+    font-weight: bold;
+}
+
+li {
+    font-size: 0.85em;
+}
+
+p, div {
+    font-size: 0.75em;
+}
+
+#gradiente {
+    margin: 40px;
+    background: #ff9600;
+    background: linear-gradient(0deg,#ff9600 0%, #dbde13 80%);
+    background: -webkit-linear-gradient(0deg,#ff9600 0%, #dbde13 80%);
+    background: -moz-linear-gradient(0deg,#ff9600 0%, #dbde13 80%);
+    border-radius: 2px 25px 25px 2px;
+}
+
+/* Estilos específicos de la página Contacto */
+
+form {
+    font-size: 1em;
+    width: 100%;
+}
+
+label {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+input,
+textarea {
+    width: 90%;
+    margin-left: 5px;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #ada9a9;
+}
+
+button {
+    padding: 10px;
+    background-color: #726e6e;
+    color: #ededed;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px auto;
+}
+
+button:hover {
+    color: #fdad00;
+}
