@@ -1,0 +1,36 @@
+body {
+	background-color: whitesmoke;
+}
+
+.contenedor {
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	margin: auto;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.item {
+	font-size: 20px;
+	color: white;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.item:first-child {
+	background-color: red;
+}
+
+.item:nth-child(2) {
+	background-color: blue;
+}
+
+.item:last-child {
+	background-color: green;
+}
