@@ -1,0 +1,19 @@
+
+#contenedor {
+	width: 100%;
+}
+
+nav {
+    background: orange;
+    width: 100%;
+}
+
+section {
+    margin: 0;
+    width: 100%;
+}
+
+aside {
+    width: 100%;
+    box-sizing: border-box;
+}
