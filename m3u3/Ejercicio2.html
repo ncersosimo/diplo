@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <script>
+
+        // Ejercicio 2
+        // Crear el código que reciba como parámetro un array de números y devuelva el mayor.
+
+        const stringNumeros = prompt('Ingrese un array de números sin []:');
+
+        // Convierto a array la lista de string de numeros
+		const arrayNumeros = stringNumeros.split(',');
+        // console.log(arrayNumeros);
+        
+        // Tomo como mayor al primer elemento
+        let mayor = parseInt(arrayNumeros[0]);
+        // console.log(`El primer elemento es: ${mayor}`);
+
+        if(arrayNumeros.length>1){
+            for( let i = 0; i < arrayNumeros.length; i++){
+                if(parseInt(arrayNumeros[i])>mayor){
+                    mayor = arrayNumeros[i];
+                }
+            }
+        }
+
+        // console.log(`El número mayor es: ${mayor}`);
+        alert(`El número mayor es: ${mayor}`);
+    </script>
+</body>
+
+</html>

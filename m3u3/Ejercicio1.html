@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <script>
+
+        // Ejercicio 1
+        // Crear el código que dada una distancia determine el medio de transporte apropiado
+
+        const metros = parseInt(prompt('Ingrese los metros que desea recorrer:', ''));
+
+        // menor o igual a cero metros
+        if (metros <= 0) {
+            console.log(`Se sugiere quedarse sentado :)`);
+        } else if (metros > 0 && metros <= 1000) {
+            console.log(`Se sugiere recorrer los ${metros} metros a pie`);
+        } else if (metros > 1000 && metros <= 10000) {
+            console.log(`Se sugiere recorrer los ${metros} metros en bicicleta`);
+        } else if (metros > 10000 && metros <= 30000) {
+            console.log(`Se sugiere recorrer los ${metros} metros en colectivo`);
+        } else if (metros > 30000 && metros <= 100000) {
+            console.log(`Se sugiere recorrer los ${metros} metros en auto`);
+        } else if (metros > 100000) {
+            console.log(`Se sugiere recorrer los ${metros} metros en avion`);
+        }
+
+    </script>
+</body>
+
+</html>
