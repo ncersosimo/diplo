@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="./Ejercicio2.css">
+</head>
+
+<body>
+    <form action="" method="">
+        <label for="mensaje">Ingresa tu mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="6" cols="20"></textarea>
+        <span id="info">Cantidad de Caracteres: 0</span>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+
+        const boton = document.getElementsByTagName('button')[0];
+        let texto = document.getElementById('mensaje');
+        let info = document.getElementById('info');
+
+        boton.addEventListener('click', function (event) {
+            event.preventDefault();
+        });
+
+        texto.addEventListener('keydown', function () {
+            info.innerText = `Cantidad de Caracteres: ${texto.value.length}`;
+        });
+
+    </script>
+</body>
+
+</html>

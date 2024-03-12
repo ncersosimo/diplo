@@ -1,0 +1,27 @@
+.contenedor {
+	width: 600px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.cuadrado {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.rojo {
+	background-color: red;
+}
+
+.azul {
+	background-color: blue;
+}
+
+.verde {
+	background-color: green;
+}
